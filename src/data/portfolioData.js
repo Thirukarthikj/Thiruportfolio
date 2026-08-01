@@ -115,6 +115,7 @@ export const projectsList = [
     title: "GEN FASHION — Online Fashion Store",
     iconName: "ShoppingBag",
     iconChar: "👌",
+    liveUrl: "https://genfashion.vercel.app/",
     description: "A production-grade full-stack e-commerce platform built with Next.js 14 and React 18. Features complete user authentication, Stripe-integrated checkout, Redux-powered global state, and a fully protected admin dashboard — all 35 test cases passed.",
     features: [
       "12 independent modules including authentication, product catalog, cart, checkout, orders, and admin CRUD",
@@ -125,6 +126,7 @@ export const projectsList = [
     ],
     techStack: ["Next.js 14", "React 18", "Redux Toolkit", "Tailwind CSS", "JWT + bcrypt", "Stripe", "Node.js", "REST APIs"],
     highlights: {
+      domain: "genfashion.vercel.app",
       testCases: "35 / 35 Passed",
       modules: "12 Complete Modules",
       security: "JWT + Bcrypt Auth",
