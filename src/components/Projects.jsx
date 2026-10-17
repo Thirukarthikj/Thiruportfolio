@@ -12,9 +12,9 @@ export function Projects() {
       <h2 className="section-title">
         Featured <em>Projects</em>
       </h2>
-      <div className="projects-stack reveal">
+      <div className="projects-stack">
         {projectsList.map((project) => (
-          <div className="project-card" key={project.id}>
+          <div className="project-card reveal" key={project.id}>
             <div>
               <div className="project-tag">{project.tag}</div>
               <h3 className="project-title">{project.title}</h3>

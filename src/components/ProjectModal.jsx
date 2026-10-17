@@ -67,14 +67,14 @@ export function ProjectModal({ project, onClose }) {
           ))}
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem' }}>
+        <div className="modal-actions" style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
           {project.liveUrl && (
             <a
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
-              style={{ flex: 1, justifyContent: 'center' }}
+              style={{ flex: 1, minWidth: '180px', justifyContent: 'center' }}
             >
               <ExternalLink size={18} /> Visit Live Website
             </a>
@@ -82,7 +82,7 @@ export function ProjectModal({ project, onClose }) {
           <button
             className={project.liveUrl ? "btn-outline" : "btn-primary"}
             onClick={onClose}
-            style={{ flex: project.liveUrl ? 'none' : 1, justifyContent: 'center' }}
+            style={{ flex: project.liveUrl ? 1 : 1, minWidth: '160px', justifyContent: 'center' }}
           >
             Close Case Study
           </button>
