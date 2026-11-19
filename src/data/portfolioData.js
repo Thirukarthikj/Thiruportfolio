@@ -21,8 +21,7 @@ export const personalInfo = {
 };
 
 export const stats = [
-  { value: "35", total: "/35", label: "Tests Passed" },
-  { value: "12", total: "+", label: "Modules Built" },
+  { value: "10", total: "+", label: "Realtime Projects" },
   { value: "2", total: "+", label: "Internships" },
   { value: "6", total: "+", label: "Certifications" }
 ];
@@ -266,6 +265,91 @@ export const projectsList = [
       tracking: "GPS Real-time",
       alert: "Automated Overspeed Trigger",
       hardware: "Microcontroller + Sensors"
+    }
+  },
+  {
+    id: "riyadvi-technologies",
+    tag: "Live Production · Corporate IT Solutions & Web Platform",
+    title: "Riyadvi Software Technologies — Corporate IT Platform",
+    iconName: "Globe",
+    iconChar: "🌐",
+    liveUrl: "https://riyadvisoftwaretechnologies.com/",
+    description: "The official corporate web platform for Riyadvi Software Technologies, an IT consulting and software development firm based in Chennai. Showcases enterprise service capabilities including custom web application development, mobile apps, AR/VR solutions, UI/UX engineering, and global client consulting.",
+    features: [
+      "Engineered an enterprise services architecture covering custom software, mobile applications, cloud solutions, and UI/UX engineering",
+      "Designed an interactive portfolio showcasing cross-industry digital transformations delivered for regional and APAC clients",
+      "Built conversion-focused enquiry workflows with automated lead routing, consultation scheduling, and instant contact channels",
+      "Optimized performance with modern responsive layouts, accessible semantic markup, and cross-browser compatibility"
+    ],
+    techStack: ["HTML5", "CSS3", "JavaScript ES6", "REST APIs", "Modern Responsive UI", "SEO Optimization"],
+    highlights: {
+      domain: "riyadvisoftwaretechnologies.com",
+      niche: "Enterprise IT & Digital Solutions",
+      scope: "Web, Mobile & AR/VR Services",
+      reach: "Regional & APAC Clientele"
+    }
+  },
+  {
+    id: "college-portal",
+    tag: "Production · Academic Web Platform · Institutional Project",
+    title: "Sri Kaliswari College — Responsive Academic Web Portal",
+    iconName: "Building2",
+    iconChar: "🏛️",
+    description: "A comprehensive responsive academic portal engineered for Sri Kaliswari College during an internship at RV Computers, Sivakasi. Provides structured department directories, faculty listings, syllabus resources, real-time announcements, and dynamic student notice boards.",
+    features: [
+      "Developed an intuitive responsive layout optimized for seamless navigation across desktop, tablet, and mobile devices",
+      "Created structured departmental showcases featuring syllabus breakdowns, faculty profiles, and academic event schedules",
+      "Implemented dynamic announcement tickers and event notice workflows for real-time campus updates",
+      "Engineered accessible, lightweight components ensuring fast load speeds on limited campus bandwidth"
+    ],
+    techStack: ["HTML5", "CSS3", "JavaScript ES6", "Responsive Design", "PHP", "MySQL"],
+    highlights: {
+      type: "Institutional Web Portal",
+      client: "RV Computers & Sri Kaliswari College",
+      accessibility: "Cross-Device Responsive UX",
+      focus: "Academic Resources & Notices"
+    }
+  },
+  {
+    id: "nisu-technologies",
+    tag: "Production · Enterprise Operations System · Real-Time Web App",
+    title: "NISU Technologies — Real-Time Operations Management",
+    iconName: "Database",
+    iconChar: "📊",
+    description: "A real-time enterprise operations and project management application developed for NISU Technologies during web developer internship at RV Computers. Manages workflow scheduling, order handling, customer communications, and real-time operational status updates.",
+    features: [
+      "Built real-time data handling modules with dynamic PHP backend logic and structured MySQL database schema",
+      "Designed secure administrative dashboard for monitoring client requirements, order progress, and delivery timelines",
+      "Implemented role-based data views ensuring streamlined communication between operational teams and management",
+      "Delivered a production-ready system with end-to-end testing within a rigorous 30-day development cycle"
+    ],
+    techStack: ["PHP", "MySQL", "JavaScript ES6", "HTML5 / CSS3", "REST APIs", "Relational DB"],
+    highlights: {
+      system: "Real-Time Operations Management",
+      backend: "PHP & Relational MySQL",
+      delivery: "30-Day Turnaround",
+      client: "NISU Technologies"
+    }
+  },
+  {
+    id: "gk-creations-portal",
+    tag: "Production · Creative Agency & Digital Print Portal",
+    title: "GK Creations — Creative Agency & Digital Print Portal",
+    iconName: "Palette",
+    iconChar: "🎨",
+    description: "A full-featured digital portfolio and creative print agency platform developed during full-stack developer industrial exposure training at GK Creations, Sivakasi. Features graphic design portfolios, commercial printing catalogs, packaging prototypes, and fast client quotation requests.",
+    features: [
+      "Developed modern product galleries showcasing custom branding, promotional materials, and luxury packaging designs",
+      "Integrated responsive quote request funnels allowing commercial clients to submit custom print specifications",
+      "Implemented smooth CSS transitions and interactive image previews for client design proofs",
+      "Built with modular, reusable components adhering to clean architecture and performant web standards"
+    ],
+    techStack: ["HTML5", "CSS3 Custom Properties", "JavaScript ES6", "UI/UX Design", "Responsive Layout"],
+    highlights: {
+      role: "Full Stack Developer Intern",
+      company: "GK Creations, Sivakasi",
+      niche: "Creative Design & Print Media",
+      evaluation: "Rated Highly Satisfactory"
     }
   }
 ];
