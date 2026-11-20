@@ -23,6 +23,7 @@ export default function App() {
 
   return (
     <div className="portfolio-app">
+      <div className="bg-grid-pattern" aria-hidden="true"></div>
       <Navbar activeSection={activeSection} theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Hero />

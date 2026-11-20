@@ -54,7 +54,7 @@ export function About() {
               borderRadius: '10px',
               padding: '1rem 1.25rem',
               display: 'flex',
-              justifySpaceBetween: 'center',
+              justifyContent: 'space-between',
               alignItems: 'center'
             }}>
               <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Current Study</span>

@@ -30,7 +30,7 @@ export function Hero() {
 
           <div className="hero-stats">
             {stats.map((item, idx) => (
-              <div key={idx}>
+              <div key={idx} className="stat-card">
                 <div className="stat-num">
                   {item.value}
                   <span>{item.total}</span>
